@@ -1,0 +1,413 @@
+﻿<Window x:Class="Z0key.SetUp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Z0key"
+        mc:Ignorable="d"
+        Title="SetUp" Height="600" Width="960">
+
+    <Window.Resources>
+        <Style x:Key="SidebarTab" TargetType="TabItem">
+
+            <Setter Property="Foreground"  Value="#303030"></Setter>
+            <Setter Property="BorderBrush"  Value="Red"></Setter>
+            <Setter Property="BorderThickness"  Value="1"></Setter>
+            <Setter Property="Background"  Value="White"></Setter>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TabItem">
+                        <Border BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}"
+                                Background="{TemplateBinding Background}">
+                            <ContentPresenter ContentSource="Header" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+
+            <Style.Triggers>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Foreground" Value="Blue"></Setter>
+                    <Setter Property="BorderBrush"  Value="Transparent"></Setter>
+                    <Setter Property="BorderThickness"  Value="0"></Setter>
+                    <Setter Property="Background"  Value="Yellow"></Setter>
+                </Trigger>
+            </Style.Triggers>
+
+        </Style>
+
+
+    </Window.Resources>
+
+    <Window.Background>
+        <ImageBrush ImageSource="/Background.png"/>
+    </Window.Background>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="10" Grid.RowSpan="6" >
+            <TabControl  Name="TabControl" Height="592" Width="1000" TabStripPlacement="Left" IsSynchronizedWithCurrentItem="True" Background="{x:Null}" BorderBrush="{x:Null}">
+
+
+
+
+                <TabItem Name="SetupPage2" IsEnabled="False"  Style="{DynamicResource SidebarTab}" Grid.ColumnSpan="10" Grid.RowSpan="6"  Height="54" Margin="10,0,-10,-196" VerticalAlignment="Bottom" BorderBrush="{x:Null}" Foreground="{x:Null}" RenderTransformOrigin="0.495,0.583">
+                    <TabItem.Background>
+                        <ImageBrush ImageSource="/folder.png"/>
+                    </TabItem.Background>
+
+                    <TabItem.Content>
+                        <Grid Width="928">
+
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="100"></RowDefinition>
+                                <RowDefinition Height="100"></RowDefinition>
+                                <RowDefinition Height="86"/>
+                                <RowDefinition Height="100"></RowDefinition>
+                                <RowDefinition Height="100"></RowDefinition>
+                                <RowDefinition Height="100"></RowDefinition>
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Image Grid.Row="0" 
+                               Grid.RowSpan="6" 
+                               Source="/Line.png"
+                               HorizontalAlignment="Left"
+                               Stretch="Fill" Width="1" Height="550" Margin="26,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+                                <Image.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform/>
+                                        <SkewTransform/>
+                                        <RotateTransform Angle="0.065"/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </Image.RenderTransform>
+                            </Image>
+
+                            <TextBlock Grid.Column="2"
+                               Grid.ColumnSpan="4"
+                               Text="Select the files to upload" 
+                               FontSize="30"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Top" Foreground="#FFCCC9C9" Margin="0,40,0,0"
+                                />
+
+
+                            <Button Name="SelectButton"  Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="4" Width="227" Height="43"
+                                Click="SelectButton_OnClick">
+                                <Button.Background>
+                                    <ImageBrush ImageSource="/Select Button.png" Stretch="Fill"/>
+                                </Button.Background>
+                            </Button>
+
+                            <StackPanel Name="DragAndDrop" 
+                                Grid.Row="1" Grid.Column="2" 
+                                Grid.RowSpan="2" Grid.ColumnSpan="4"
+                                >
+
+                                <Label Name="FileList" Content="" Foreground="White" Height="200"></Label>
+
+                            </StackPanel>
+
+
+
+
+                            <Button Name="FinishButton" Grid.Row="5" Grid.Column="8" Height="44" 
+                                VerticalAlignment="Top" 
+                                RenderTransformOrigin="0.632,0.342" 
+                                BorderBrush="{x:Null}" 
+                                Foreground="{x:Null}"
+                                Click="FinishButton_OnClick"
+                                Margin="0,0,56,0">
+                                <Button.Background>
+                                    <ImageBrush ImageSource="/next 1.png" Stretch="Fill" TileMode="None"/>
+                                </Button.Background>
+                            </Button>
+
+
+                        </Grid>
+
+                    </TabItem.Content>
+                </TabItem>
+
+
+
+                <TabItem Name ="SetupPage1"  IsSelected="True" IsEnabled="False" Style="{DynamicResource SidebarTab}" BorderBrush="{x:Null}" Margin="9,0,-9,-23" Foreground="{x:Null}" Width="54" Height="55" RenderTransformOrigin="0.528,0.482" VerticalAlignment="Bottom">
+                    <TabItem.Background>
+                        <ImageBrush ImageSource="/card.png"/>
+                    </TabItem.Background>
+
+                    <TabItem.Content>
+
+                        <Grid>
+
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="100"></RowDefinition>
+                                <RowDefinition Height="100"></RowDefinition>
+                                <RowDefinition Height="100"></RowDefinition>
+                                <RowDefinition Height="100"></RowDefinition>
+                                <RowDefinition Height="100"></RowDefinition>
+                                <RowDefinition Height="100"></RowDefinition>
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+
+                            <Image Grid.Row="0" 
+                                   Grid.RowSpan="6" 
+                                   Source="/Line.png"
+                                   HorizontalAlignment="Left"
+                                   Stretch="Fill" Width="1" Height="550" Margin="26,11,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+                                <Image.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform/>
+                                        <SkewTransform/>
+                                        <RotateTransform Angle="0.168"/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </Image.RenderTransform>
+                            </Image>
+
+                            <Image Grid.Column="2" Grid.Row="2"
+                               Grid.ColumnSpan="4" Grid.RowSpan="3" 
+                               Source="/boxz.png" Width="235" Height="222" Stretch="Fill" Opacity="0.8" Margin="82,10,82,68" 
+                               />
+
+                            <TextBlock Grid.Column="3" Grid.Row="1"
+                               Grid.ColumnSpan="2"
+                               Text="Welcome" 
+                               FontSize="32"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center" Foreground="#FFCCC9C9"
+                               ></TextBlock>
+
+
+
+
+
+                            <TextBlock Name="tbUsername" HorizontalAlignment="Center" 
+                               Text="User Name"
+                               Foreground="Gray" IsHitTestVisible="False" 
+                               Grid.Column="3"
+                               Margin="0,62,0,0" 
+                               Grid.Row="2" TextWrapping="Wrap" 
+                               VerticalAlignment="Top" Grid.ColumnSpan="2" 
+                               FontSize="16" />
+
+
+                            <TextBox Name="txtUserName"  TextChanged="TxtUserName_TextChanged" Grid.Column="3" 
+                                 HorizontalAlignment="Center" 
+                                 Margin="0,62,0,0" 
+                                 Grid.Row="2" TextWrapping="Wrap" 
+                                 VerticalAlignment="Top" Grid.ColumnSpan="2" 
+                                 Background="{x:Null}" BorderBrush="{x:Null}" Opacity="0.5" 
+                                 SelectionBrush="#FF8594C5" FontSize="16" 
+                                 Width="185" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" SelectionOpacity="1" SelectionTextBrush="{x:Null}" Foreground="#FFA49A9A"/>
+
+
+                            <TextBlock Name="tbPassword" HorizontalAlignment="Center" 
+                               Text="Password"
+                               Foreground="Gray" IsHitTestVisible="False" 
+                               Grid.Column="3" 
+                               Grid.Row="2" TextWrapping="Wrap" 
+                               VerticalAlignment="Top" Grid.ColumnSpan="2" 
+                               FontSize="16" Grid.RowSpan="2" Margin="0,93,0,0" />
+
+                            <PasswordBox Name="pwbPassword"  PasswordChanged="PwbPassword_PasswordChanged" Grid.Column="3" 
+                                 HorizontalAlignment="Center" 
+                                 Grid.Row="2" 
+                                 VerticalAlignment="Top" Grid.ColumnSpan="2" 
+                                 Background="{x:Null}" BorderBrush="{x:Null}" 
+                                 Foreground="#FFCCC9C9" Opacity="0.5" 
+                                 SelectionBrush="{x:Null}" 
+                                 OpacityMask="#FF171C1F" FontSize="16" 
+                                 Width="184" Margin="0,92,0,0" Grid.RowSpan="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+
+
+                            <TextBlock Name="tbConformPassword" HorizontalAlignment="Center" 
+                               Text="Conform Password"
+                               Foreground="Gray" IsHitTestVisible="False" 
+                               Grid.Column="3" 
+                               Grid.Row="3" TextWrapping="Wrap" 
+                               VerticalAlignment="Top" Grid.ColumnSpan="2" 
+                               FontSize="16" Margin="0,21,0,0" />
+
+                            <PasswordBox Name="pwbConformPassword"  PasswordChanged="PwbConformPassword_PasswordChanged" Grid.Column="3" 
+                                 HorizontalAlignment="Center" 
+                                 Grid.Row="3" 
+                                 VerticalAlignment="Top" Grid.ColumnSpan="2" 
+                                 Background="{x:Null}" BorderBrush="{x:Null}" 
+                                 Foreground="#FFCCC9C9" Opacity="0.5" 
+                                 SelectionBrush="{x:Null}" 
+                                 OpacityMask="#FF171C1F" FontSize="16" 
+                                 Width="184" Margin="0,20,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+
+                            <TextBlock Name="tbEmail" HorizontalAlignment="Center" 
+                               Text="Email"
+                               Foreground="Gray" IsHitTestVisible="False" 
+                               Grid.Column="3"
+                               Margin="0,50,0,0" 
+                               Grid.Row="3" TextWrapping="Wrap" 
+                               VerticalAlignment="Top" 
+                               FontSize="16" Grid.ColumnSpan="2" />
+
+
+                            <TextBox Name="txtEmail"  TextChanged="TxtEmail_OnTextChanged_TextChanged" Grid.Column="3" 
+                                 HorizontalAlignment="Center" 
+                                 Margin="0,49,0,0" 
+                                 Grid.Row="3" TextWrapping="Wrap" 
+                                 VerticalAlignment="Top" Grid.ColumnSpan="2" 
+                                 Background="{x:Null}" BorderBrush="{x:Null}" Opacity="0.5" 
+                                 SelectionBrush="#FF8594C5" FontSize="16" 
+                                 Width="185" HorizontalContentAlignment="Center" 
+                                 VerticalContentAlignment="Center" 
+                                 SelectionOpacity="1" 
+                                 SelectionTextBrush="{x:Null}" 
+                                 Foreground="#FFA49A9A"/>
+
+                            <Button Name="SignUp" Grid.Row="5" Grid.Column="8" Height="44" 
+                                RenderTransformOrigin="0.522,0.523" 
+                                BorderBrush="{x:Null}" 
+                                Foreground="{x:Null}"
+                                Margin="0,0,0,56" Width="44" HorizontalAlignment="Left"
+                                Click="SignUp_OnClick">
+                                <Button.Background>
+                                    <ImageBrush ImageSource="/next 1.png" Stretch="Fill" TileMode="None"/>
+                                </Button.Background>
+                            </Button>
+
+                            <TextBlock Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="4" Name="Errors" Text="" Height="NaN" Margin="38,10,38,13" FontSize="20" Foreground="Red" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+
+                        </Grid>
+
+                    </TabItem.Content>
+                </TabItem>
+
+
+                <TabItem  Name="SetupWindow3"  IsEnabled="False"  Style="{DynamicResource SidebarTab}" BorderBrush="{x:Null}" Margin="17,-238,-17,238" Foreground="{x:Null}" Width="54" Height="54" RenderTransformOrigin="0.528,0.482">
+                    <TabItem.Background>
+                        <ImageBrush ImageSource="/Logo.png"/>
+                    </TabItem.Background>
+
+                    <TabItem.Content>
+
+                        <Grid>
+
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="100"></RowDefinition>
+                                <RowDefinition Height="100"></RowDefinition>
+                                <RowDefinition Height="100"></RowDefinition>
+                                <RowDefinition Height="100"></RowDefinition>
+                                <RowDefinition Height="100"></RowDefinition>
+                                <RowDefinition Height="100"></RowDefinition>
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Image Grid.Column="2" Grid.Row="0"
+                                Source="/Zolock.png"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Top"
+                                Stretch="Fill" Width="300" Height="98" Grid.ColumnSpan="4" Margin="0,78,0,0" Grid.RowSpan="2"></Image>
+
+
+
+                            <TextBlock Grid.Column="2"
+                               Grid.ColumnSpan="4" 
+                               FontSize="30"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Top" TextAlignment="Center"
+                               Foreground="#FFCCC9C9" Grid.Row="1" TextWrapping="Wrap" Height="200" Width="300" Margin="0,76,0,0" Grid.RowSpan="3"
+                               ><Run Text="Welcome 
+                                     Your All setup
+                                     Please restart the app"
+                                     /><LineBreak/><Run Text=" "/></TextBlock>
+
+                            <Button Name="RestartButton" 
+                                Grid.Column="2" Grid.Row="3"
+                                Grid.ColumnSpan="4" Width="227" 
+                                Height="43"
+                                Click="RestartButton_OnClick"
+                >
+                                <Button.Background>
+                                    <ImageBrush ImageSource="/RestartButton.png" Stretch="Fill"/>
+                                </Button.Background>
+                            </Button>
+
+
+                        </Grid>
+                    </TabItem.Content>
+                </TabItem>
+
+            </TabControl>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,179 @@
+﻿<Window x:Class="Z0key.SetUpWindow2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Z0key"
+        mc:Ignorable="d"
+        Title="SetUp" Height="600" Width="1000"
+        >
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/Backgroundimages/Background.png" Stretch="Fill" TileMode="None" ViewboxUnits="RelativeToBoundingBox" ViewportUnits="RelativeToBoundingBox"/>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Image Grid.Column="0" Grid.Row="0"
+            Source="/Images/SignUpPage/Logo.png"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Stretch="Fill" Width="50" Height="50"></Image>
+
+        <Image Grid.Column="0" Grid.Row="2"
+               Source="/Images/SignUpPage/card.png"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               Stretch="Fill" Width="60" Height="60"></Image>
+
+        <Image Grid.Column="0" Grid.Row="3" 
+               Source="/Images/Extrenal/folder.png"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               Stretch="Fill" Width="60" Height="60"></Image>
+
+        <Image Grid.Column="1" Grid.Row="0" 
+               Grid.RowSpan="6" 
+               Source="/Images/SignUpPage/Line.png"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Center"
+               Stretch="Fill" Width="1" Height="550"></Image>
+
+        <Image Grid.Column="3" Grid.Row="2"
+               Grid.ColumnSpan="4" Grid.RowSpan="3" 
+               Source="/boxz.png" Width="235" Height="222" Stretch="Fill" Opacity="0.8" Margin="82,10,82,68" 
+               />
+
+        <TextBlock Grid.Column="4" Grid.Row="1"
+                   Grid.ColumnSpan="2"
+                   Text="Welcome" 
+                   FontSize="32"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center" Foreground="#FFCCC9C9"
+                   ></TextBlock>
+
+
+
+
+
+        <TextBlock Name="tbUsername" HorizontalAlignment="Center" 
+                   Text="User Name"
+                   Foreground="Gray" IsHitTestVisible="False" 
+                   Grid.Column="4"
+                   Margin="0,62,0,0" 
+                   Grid.Row="2" TextWrapping="Wrap" 
+                   VerticalAlignment="Top" Grid.ColumnSpan="2" 
+                   FontSize="16" />
+
+
+        <TextBox Name="txtUserName"  TextChanged="TxtUserName_TextChanged" Grid.Column="4" 
+                 HorizontalAlignment="Center" 
+                 Margin="0,62,0,0" 
+                 Grid.Row="2" TextWrapping="Wrap" 
+                 VerticalAlignment="Top" Grid.ColumnSpan="2" 
+                 Background="{x:Null}" BorderBrush="{x:Null}" Opacity="0.5" 
+                 SelectionBrush="#FF8594C5" FontSize="16" 
+                 Width="185" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" SelectionOpacity="1" SelectionTextBrush="{x:Null}" Foreground="#FFA49A9A"/>
+
+
+        <TextBlock Name="tbPassword" HorizontalAlignment="Center" 
+                   Text="Password"
+                   Foreground="Gray" IsHitTestVisible="False" 
+                   Grid.Column="4" 
+                   Grid.Row="2" TextWrapping="Wrap" 
+                   VerticalAlignment="Top" Grid.ColumnSpan="2" 
+                   FontSize="16" Grid.RowSpan="2" Margin="0,93,0,0" />
+
+        <PasswordBox Name="pwbPassword"  PasswordChanged="PwbPassword_PasswordChanged" Grid.Column="4" 
+                 HorizontalAlignment="Center" 
+                 Grid.Row="2" 
+                 VerticalAlignment="Top" Grid.ColumnSpan="2" 
+                 Background="{x:Null}" BorderBrush="{x:Null}" 
+                 Foreground="#FFCCC9C9" Opacity="0.5" 
+                 SelectionBrush="{x:Null}" 
+                 OpacityMask="#FF171C1F" FontSize="16" 
+                 Width="184" Margin="0,92,0,0" Grid.RowSpan="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+
+
+        <TextBlock Name="tbConformPassword" HorizontalAlignment="Center" 
+                   Text="Conform Password"
+                   Foreground="Gray" IsHitTestVisible="False" 
+                   Grid.Column="4" 
+                   Grid.Row="3" TextWrapping="Wrap" 
+                   VerticalAlignment="Top" Grid.ColumnSpan="2" 
+                   FontSize="16" Margin="0,21,0,0" />
+
+        <PasswordBox Name="pwbConformPassword"  PasswordChanged="PwbConformPassword_PasswordChanged" Grid.Column="4" 
+                     HorizontalAlignment="Center" 
+                     Grid.Row="3" 
+                     VerticalAlignment="Top" Grid.ColumnSpan="2" 
+                     Background="{x:Null}" BorderBrush="{x:Null}" 
+                     Foreground="#FFCCC9C9" Opacity="0.5" 
+                     SelectionBrush="{x:Null}" 
+                     OpacityMask="#FF171C1F" FontSize="16" 
+                     Width="184" Margin="0,20,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+
+        <TextBlock Name="tbEmail" HorizontalAlignment="Center" 
+                   Text="Email"
+                   Foreground="Gray" IsHitTestVisible="False" 
+                   Grid.Column="4"
+                   Margin="0,50,0,0" 
+                   Grid.Row="3" TextWrapping="Wrap" 
+                   VerticalAlignment="Top" 
+                   FontSize="16" Grid.ColumnSpan="2" />
+
+
+        <TextBox Name="txtEmail"  TextChanged="TxtEmail_OnTextChanged_TextChanged" Grid.Column="4" 
+                 HorizontalAlignment="Center" 
+                 Margin="0,49,0,0" 
+                 Grid.Row="3" TextWrapping="Wrap" 
+                 VerticalAlignment="Top" Grid.ColumnSpan="2" 
+                 Background="{x:Null}" BorderBrush="{x:Null}" Opacity="0.5" 
+                 SelectionBrush="#FF8594C5" FontSize="16" 
+                 Width="185" HorizontalContentAlignment="Center" 
+                 VerticalContentAlignment="Center" 
+                 SelectionOpacity="1" 
+                 SelectionTextBrush="{x:Null}" 
+                 Foreground="#FFA49A9A"/>
+
+        <Button Name="SignUp" Grid.Row="5" Grid.Column="8" Height="33" 
+                Grid.ColumnSpan="2" 
+                RenderTransformOrigin="0.522,0.523" 
+                BorderBrush="{x:Null}" 
+                Foreground="{x:Null}"
+                Margin="46,23,0,44" Width="106" HorizontalAlignment="Left"
+                Click="SignUp_OnClick">
+            <Button.Background>
+                <ImageBrush ImageSource="/Finish Button.png" Stretch="Fill" TileMode="None"/>
+            </Button.Background>
+        </Button>
+
+        <TextBlock Grid.Row="5" Grid.Column="3" Grid.ColumnSpan="4" Name="Errors" Text="" Height="NaN" Margin="0,0,0,25" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Red"></TextBlock>
+
+
+    </Grid>
+</Window>

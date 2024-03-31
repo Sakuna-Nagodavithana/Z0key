@@ -1,0 +1,68 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<OutputType>WinExe</OutputType>
+	<TargetFramework>net6.0-windows</TargetFramework>
+	<Nullable>enable</Nullable>
+	<UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="AddFiles.png" />
+    <None Remove="Background.png" />
+    <None Remove="boxz - Copy.png" />
+    <None Remove="boxz.png" />
+    <None Remove="card.png" />
+    <None Remove="DeleteButton.png" />
+    <None Remove="docs.png" />
+    <None Remove="Finish Button.png" />
+    <None Remove="folder.png" />
+    <None Remove="Images\Backgroundimages\Background.png" />
+    <None Remove="Images\Extrenal\AddFiles.png" />
+    <None Remove="Images\SignUpPage\next 1.png" />
+    <None Remove="Line.png" />
+    <None Remove="Logo.png" />
+    <None Remove="next 1.png" />
+    <None Remove="question 1.png" />
+    <None Remove="question_Selected.png" />
+    <None Remove="RemoveFiles.png" />
+    <None Remove="RestartButton.png" />
+    <None Remove="Select Button.png" />
+    <None Remove="Submit.png" />
+    <None Remove="user.png" />
+    <None Remove="user_logo.png" />
+    <None Remove="Zolock.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="AddFiles.png" />
+    <Resource Include="Background.png" />
+    <Resource Include="boxz - Copy.png" />
+    <Resource Include="boxz.png" />
+    <Resource Include="card.png" />
+    <Resource Include="DeleteButton.png" />
+    <Resource Include="docs.png" />
+    <Resource Include="Finish Button.png" />
+    <Resource Include="folder.png" />
+    <Resource Include="Images\Backgroundimages\Background.png" />
+    <Resource Include="Images\Extrenal\AddFiles.png" />
+    <Resource Include="Images\SignUpPage\next 1.png" />
+    <Resource Include="Line.png" />
+    <Resource Include="Logo.png" />
+    <Resource Include="next 1.png" />
+    <Resource Include="question 1.png" />
+    <Resource Include="question_Selected.png" />
+    <Resource Include="RemoveFiles.png" />
+    <Resource Include="RestartButton.png" />
+    <Resource Include="Select Button.png" />
+    <Resource Include="Submit.png" />
+    <Resource Include="user.png" />
+    <Resource Include="user_logo.png" />
+    <Resource Include="Zolock.png" />
+  </ItemGroup>
+
+
+	
+	
+
+</Project>

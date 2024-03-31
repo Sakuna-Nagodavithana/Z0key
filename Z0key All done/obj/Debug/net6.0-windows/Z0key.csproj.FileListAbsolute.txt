@@ -1,0 +1,132 @@
+D:\Z0key\Z0key\bin\Debug\net6.0-windows\Z0key.exe
+D:\Z0key\Z0key\bin\Debug\net6.0-windows\Z0key.deps.json
+D:\Z0key\Z0key\bin\Debug\net6.0-windows\Z0key.runtimeconfig.json
+D:\Z0key\Z0key\bin\Debug\net6.0-windows\Z0key.dll
+D:\Z0key\Z0key\bin\Debug\net6.0-windows\Z0key.pdb
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\Z0key.csproj.AssemblyReference.cache
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\HelpPage.g.cs
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\HomePage.g.cs
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\LogInWindow.g.cs
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\SetUpWindow1.g.cs
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\SetUpWindow2.g.cs
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\SetUpWindow3.g.cs
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\App.g.cs
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\Z0key_MarkupCompile.cache
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\Z0key_MarkupCompile.lref
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\HelpPage.baml
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\HomePage.baml
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\LogInWindow.baml
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\SetUpWindow1.baml
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\SetUpWindow2.baml
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\SetUpWindow3.baml
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\Z0key.g.resources
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\Z0key.GeneratedMSBuildEditorConfig.editorconfig
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\Z0key.AssemblyInfoInputs.cache
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\Z0key.AssemblyInfo.cs
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\Z0key.csproj.CoreCompileInputs.cache
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\Z0key.dll
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\refint\Z0key.dll
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\Z0key.pdb
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\Z0key.genruntimeconfig.cache
+D:\Z0key\Z0key\obj\Debug\net6.0-windows\ref\Z0key.dll
+D:\Z0key\Z0key - Copy\bin\Debug\net6.0-windows\Z0key.exe
+D:\Z0key\Z0key - Copy\bin\Debug\net6.0-windows\Z0key.deps.json
+D:\Z0key\Z0key - Copy\bin\Debug\net6.0-windows\Z0key.runtimeconfig.json
+D:\Z0key\Z0key - Copy\bin\Debug\net6.0-windows\Z0key.dll
+D:\Z0key\Z0key - Copy\bin\Debug\net6.0-windows\Z0key.pdb
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\Z0key.csproj.AssemblyReference.cache
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\HelpPage.g.cs
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\HomePage.g.cs
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\LogInWindow.g.cs
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\SetUpWindow1.g.cs
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\SetUpWindow2.g.cs
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\SetUpWindow3.g.cs
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\App.g.cs
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\Z0key_MarkupCompile.cache
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\Z0key_MarkupCompile.lref
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\HelpPage.baml
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\HomePage.baml
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\LogInWindow.baml
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\SetUpWindow3.baml
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\SetUpWindow1.baml
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\SetUpWindow2.baml
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\Z0key.g.resources
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\Z0key.GeneratedMSBuildEditorConfig.editorconfig
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\Z0key.AssemblyInfoInputs.cache
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\Z0key.AssemblyInfo.cs
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\Z0key.csproj.CoreCompileInputs.cache
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\Z0key.dll
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\refint\Z0key.dll
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\Z0key.pdb
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\Z0key.genruntimeconfig.cache
+D:\Z0key\Z0key - Copy\obj\Debug\net6.0-windows\ref\Z0key.dll
+D:\Z0key\Z0key Goood\bin\Debug\net6.0-windows\Z0key.exe
+D:\Z0key\Z0key Goood\bin\Debug\net6.0-windows\Z0key.deps.json
+D:\Z0key\Z0key Goood\bin\Debug\net6.0-windows\Z0key.runtimeconfig.json
+D:\Z0key\Z0key Goood\bin\Debug\net6.0-windows\Z0key.dll
+D:\Z0key\Z0key Goood\bin\Debug\net6.0-windows\Z0key.pdb
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Z0key.csproj.AssemblyReference.cache
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\LogIn.g.cs
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Old FIles\HelpPage.g.cs
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Old FIles\HomePage.g.cs
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Old FIles\LogInWindow.g.cs
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\App.g.cs
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Z0key_MarkupCompile.cache
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Z0key_MarkupCompile.lref
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\LogIn.baml
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Old FIles\HelpPage.baml
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Old FIles\HomePage.baml
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Old FIles\LogInWindow.baml
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Z0key.g.resources
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Z0key.GeneratedMSBuildEditorConfig.editorconfig
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Z0key.AssemblyInfoInputs.cache
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Z0key.AssemblyInfo.cs
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Z0key.csproj.CoreCompileInputs.cache
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Z0key.dll
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\refint\Z0key.dll
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Z0key.pdb
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Z0key.genruntimeconfig.cache
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\ref\Z0key.dll
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\SetUp.g.cs
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\SetUp.baml
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Old FIles\SetUpWindow1.g.cs
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Old FIles\SetUpWindow2.g.cs
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Old FIles\SetUpWindow3.g.cs
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Old FIles\SetUpWindow1.baml
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Old FIles\SetUpWindow2.baml
+D:\Z0key\Z0key Goood\obj\Debug\net6.0-windows\Old FIles\SetUpWindow3.baml
+D:\Z0key\done --\Z0key All done\bin\Debug\net6.0-windows\Z0key.exe
+D:\Z0key\done --\Z0key All done\bin\Debug\net6.0-windows\Z0key.deps.json
+D:\Z0key\done --\Z0key All done\bin\Debug\net6.0-windows\Z0key.runtimeconfig.json
+D:\Z0key\done --\Z0key All done\bin\Debug\net6.0-windows\Z0key.dll
+D:\Z0key\done --\Z0key All done\bin\Debug\net6.0-windows\Z0key.pdb
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Z0key.csproj.AssemblyReference.cache
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\LogIn.g.cs
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Old FIles\HelpPage.g.cs
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Old FIles\HomePage.g.cs
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Old FIles\LogInWindow.g.cs
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Old FIles\SetUpWindow1.g.cs
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Old FIles\SetUpWindow2.g.cs
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Old FIles\SetUpWindow3.g.cs
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\SetUp.g.cs
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\App.g.cs
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Z0key_MarkupCompile.cache
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Z0key_MarkupCompile.lref
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\LogIn.baml
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Old FIles\HelpPage.baml
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Old FIles\HomePage.baml
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Old FIles\LogInWindow.baml
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Old FIles\SetUpWindow1.baml
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Old FIles\SetUpWindow2.baml
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Old FIles\SetUpWindow3.baml
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\SetUp.baml
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Z0key.g.resources
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Z0key.GeneratedMSBuildEditorConfig.editorconfig
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Z0key.AssemblyInfoInputs.cache
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Z0key.AssemblyInfo.cs
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Z0key.csproj.CoreCompileInputs.cache
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Z0key.dll
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\refint\Z0key.dll
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Z0key.pdb
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\Z0key.genruntimeconfig.cache
+D:\Z0key\done --\Z0key All done\obj\Debug\net6.0-windows\ref\Z0key.dll

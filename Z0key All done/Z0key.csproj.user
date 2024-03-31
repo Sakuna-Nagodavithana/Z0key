@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Old FIles\HelpPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Old FIles\HomePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LogIn.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Old FIles\LogInWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SetUp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Old FIles\SetUpWindow2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Old FIles\SetUpWindow1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Old FIles\SetUpWindow3.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Old FIles\HelpPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Old FIles\HomePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LogIn.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Old FIles\LogInWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SetUp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Old FIles\SetUpWindow2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Old FIles\SetUpWindow1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Old FIles\SetUpWindow3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
